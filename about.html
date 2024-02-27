@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="About page for my personal website">
+        <title>Allison's Website--About</title>
+        <script>
+            function loadCSS(url) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = url;
+                document.head.appendChild(link);
+            }
+            loadCSS("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+            loadCSS("css/style.css");
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <nav class="navbar is-active">
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                        <img src="images/logo.png" alt="site logo" style="max-height: 90px" class="py-2 px-3">
+                    </a>
+                    <a class="navbar-burger" id="burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </a>
+                </div>
+
+                <div class="heading">
+                    <h4>Allison Sobol</h4>
+                </div>
+
+                <div class="navbar-menu" id="nav-links">
+                    <div class="navbar-end px-4">
+                        <a href="education.html" class="navbar-item has-text-black">Education</a>
+                        <a href="projects.html" class="navbar-item has-text-black">Projects</a>
+                        <a href="about.html" class="navbar-item has-text-black">About Me</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Adding title section -->
+            <section class="section">
+                <div class="container">
+                    <h1 class=" is-size-3-mobile is-size-1-desktop is-uppercase has-text-centered py-6"><span>More About Me</span></h1>
+                </div>
+                <div class="container">
+                    <div class="columns is-vcentered is-multiline">
+                        <div class="column is-centered">
+                            <p class="is-size-6-mobile is-size-4-tablet is-size-4-desktop" id="p1">
+                                I graduated in the Spring of 2022 from the University of Montana. While I did graduate with a
+                                degree in psychology, I took a few courses in Computer Science as well as a Media Arts course
+                                for Web Design. I really enjoyed these classes because they provided different challenges and 
+                                once you got through those challenges the sense of accomplishement that you feel is one of the
+                                best feelings. It's like making a birdie putt on the golf course!
+                            </p>
+                        </div>
+                        <div class="column is-size-3-mobile is-size-4-desktop">
+                            <img class="gradimage" src="images/grad.JPG" alt="Gradutation photo">
+                        </div>
+                    </div>
+                    <div class="columns is-vcentered is-multiline" id="aboutcontainerswap">
+                        <div class="column is-size-3-mobile is-size-4-desktop">
+                            <img class="golfphoto" src="images/golfphoto.jpg" alt="Golf Photo">
+                        </div>
+                        <div class="column is-centered">
+                            <p class="is-size-6-mobile is-size-4-tablet is-size-4-desktop py-4" id="p2">
+                                Along with my degree I was apart of the University's Women's Griz Golf Team. Throughout my time
+                                as a student-athlete I learned many skills that translate into the professional world. The biggest 
+                                skill I learned was how important time-management was. Between the early morning wake ups for workouts,
+                                a full day of school, and then golf practice I got really good at managing school, golf, and the social
+                                aspects of college. Once I graduated college I knew I wanted to start back up and become a developer.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="columns is-vcentered is-multiline">
+                        <div class="column is-centered">
+                            <p class="is-size-6-mobile is-size-4-tablet is-size-4-desktop py-4" id="p3">
+                                I did my research and looked into the coding bootcamps. In my search I found one called Nucamp, it had 
+                                really good reviews and it had a program where I could get into backend devloping. From October of 2022 
+                                to January of 2023 I went through the program and graduated with an honors certificate. I learned a lot 
+                                and started to really get excited about development. Seeing my project ideas come to life and creating 
+                                functionality was the most satisfying feeling for me. I am currently gaining more knowledge and 
+                                experience as an intern in web development.
+                            </p>
+                        </div>
+                        <div class="column is-size-3-mobile is-size-4-desktop">
+                            <img class="planephoto" src="images/T6photo.jpg" alt="Airplane photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Footer for Contact Links-->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <h3>Contact Me!</h3>
+                <p><a href="https://www.linkedin.com/in/allison-sobol-aaba51249/" class="footer-item">LinkedIn</a></p>
+                <p><a href="https://github.com/asobol13" class="footer-item">Github</a></p>
+                <p><a href="mailto:allisonsobol13@gmail.com" class="footer-item">Email</a></p>
+            </div>
+        </footer>
+
+        <!-- Burger menu for mobile devices -->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

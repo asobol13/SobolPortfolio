@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Projects page for my personal website">
+        <title>Allison's Website--Projects</title>
+        <script>
+            function loadCSS(url) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = url;
+                document.head.appendChild(link);
+            }
+            loadCSS("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+            loadCSS("css/style.css");
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <nav class="navbar is-active">
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                        <img src="images/logo.png" alt="site logo" style="max-height: 90px" class="py-2 px-3">
+                    </a>
+                    <a class="navbar-burger" id="burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </a>
+                </div>
+
+                <div class="heading">
+                    <h4>Allison Sobol</h4>
+                </div>
+
+                <div class="navbar-menu" id="nav-links">
+                    <div class="navbar-end px-4">
+                        <a href="education.html" class="navbar-item has-text-black">Education</a>
+                        <a href="projects.html" class="navbar-item has-text-black">Projects</a>
+                        <a href="about.html" class="navbar-item has-text-black">About Me</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Adding title section -->
+            <section class="section">
+                <div class="container">
+                    <h1 class="is-size-3-mobile is-size-1-desktop is-uppercase has-text-centered py-6"><span>Projects</span></h1>
+                </div>
+                <div class="box is-size-4-desktop py-4 px-4 has-text-centered">
+                    <p>These are my finished projects thus far, all of which I am continuously 
+                        working on. My latest project was a maintenance tracker for aircraft using the 
+                        Electron.js framework. Currently, I am working on my internship project as well
+                        as a showcase website for a local company.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container py-6">
+                    <div class="columns is-vcentered is-multiline py-4">
+                        <div class="column is-size-5-mobile is-size-2-desktop px-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EmHzJU1lGTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                            </iframe>
+                            <h5 class="is-size-4 has-text-centered">Charter Flight Program Back-end Project</h5>
+                        </div>
+                        <div class="column is-size-5-mobile is-size-2-desktop px-6">
+                            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/7Y98zVgs7Ey/embed" width="100%" height="315">
+                            </iframe>
+                            <h5 class="is-size-4 has-text-centered">Charter Flight Program Front-end Project</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-6">
+                    <div class="columns is-vcentered is-multiline py-4">
+                        <div class="column is-size-5-mobile is-size-2-desktop px-6">
+                            <img src="images/DancoDasboardScrnsht.png" width="100%" height="315" alt="Danco Dashboard Screenshot"/>
+                            <h5 class="is-size-4 has-text-centered">Danco Dashboard Electron Project</h5>
+                        </div>
+                        <div class="column is-vcentered is-multiline py-4">
+                            <div class="column is-size-5-mobile is-size-2-desktop px-6">
+                                <iframe src="https://asobol13.github.io/Allisons_Website/" width="100%" height="315" title="Webpage for my personal website">
+                                </iframe>
+                                <h5 class="is-size-4 has-text-centered">My Personal Website</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer for Contact Links-->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <h3>Contact Me!</h3>
+                <p><a href="https://www.linkedin.com/in/allison-sobol-aaba51249/" class="footer-item">LinkedIn</a></p>
+                <p><a href="https://github.com/asobol13" class="footer-item">Github</a></p>
+                <p><a href="mailto:allisonsobol13@gmail.com" class="footer-item">Email</a></p>
+            </div>
+        </footer>
+
+        <!-- Burger menu for mobile devices -->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

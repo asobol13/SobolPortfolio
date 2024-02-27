@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Education page for my personal website">
+        <title>Allison's Website--Certifications</title>
+        <script>
+            function loadCSS(url) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = url;
+                document.head.appendChild(link);
+            }
+            loadCSS("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
+            loadCSS("css/style.css");
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <nav class="navbar is-active">
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item">
+                        <img src="images/logo.png" alt="site logo" style="max-height: 90px" class="py-2 px-3">
+                    </a>
+                    <a class="navbar-burger" id="burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </a>
+                </div>
+
+                <div class="heading">
+                    <h4>Allison Sobol</h4>
+                </div>
+
+                <div class="navbar-menu" id="nav-links">
+                    <div class="navbar-end px-4">
+                        <a href="education.html" class="navbar-item has-text-black">Education</a>
+                        <a href="projects.html" class="navbar-item has-text-black">Projects</a>
+                        <a href="about.html" class="navbar-item has-text-black">About Me</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Adding a title section -->
+            <section class="section">
+                <div class="container">
+                    <h1 class="is-size-3-mobile is-size-1-desktop is-uppercase has-text-centered py-6"><span>Certifications</span></h1>
+                    <div class="box is-size-4-desktop py-4 px-4 has-text-centered">
+                        <p>I currently have 4 certificates from the Nucamap Coding Bootcamp for their Backend Development Course that I
+                            completed in January of this year.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Adding Certifications -->
+            <section class="section">
+                <div class="container py-6">
+                    <div class="columns is-vcentered is-multiline py-4">
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img onclick="showOverlay()" src="images/DataStructures&Algorithms.png" alt="Data Structures Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
+                                    <div class="text">I learned about data structures & algorithms, 
+                                        object-oriented programming, and big O notation in python. This gave me a solid
+                                        foundation moving forward.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img onclick="showOverlay()" src="images/SQL.png" alt="SQL Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
+                                    <div class="text">I learned about database technologies (specifically SQL),
+                                        about database migrations, optimization, and visualization. I also developed
+                                        with the flask framework.
+                                    </div>
+                                </div>                             
+                            </div>
+                        </div>
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img onclick="showOverlay()" src="images/DevOps.png" alt="DevOps Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
+                                    <div class="text">I learned about software development, docker, cloud computing (AWS, Google
+                                        Cloud, Azure), Kubernetes, testing, and developed with the Django framework.
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="column is-6-tablet is-3-desktop has-text-centered">
+                            <div class="image">
+                                <img onclick="showOverlay()" src="images/HonorsGraduate.png" alt="Honors Graduation Certificate image" class="px-3">
+                                <div class="overlay" id="overlay" onclick="hideOverlay()">
+                                    <div class="text">I submitted a backend flask application project for the honors certificate.
+                                        This project is a program for a aviation Charter business to keep all of their information
+                                        in one place.
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer for Contact Links-->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <h3>Contact Me!</h3>
+                <p><a href="https://www.linkedin.com/in/allison-sobol-aaba51249/" class="footer-item">LinkedIn</a></p>
+                <p><a href="https://github.com/asobol13" class="footer-item">Github</a></p>
+                <p><a href="mailto:allisonsobol13@gmail.com" class="footer-item">Email</a></p>
+            </div>
+        </footer>
+
+        <!-- Burger menu for mobile devices -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
