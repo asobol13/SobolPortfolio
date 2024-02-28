@@ -200,6 +200,34 @@ span:nth-child(1) {
   width: 100%;
 }
 
+/* Contact button styling */
+.contactButton {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  background-color: #f7e3f0;
+  color: black;
+  font-size: 15px;
+}
+
+.contactButton:hover {
+  background-color: #e9afd5;
+}
+
+/* Resume button */
+.resumeButton {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  background-color: #f7e3f0;
+  color: black;
+  font-size: 15px;
+}
+
+.resumeButton:hover {
+  background-color: #e9afd5;
+}
+
 /* About page paragraph spacing */
 .aboutcontent {
   text-align: center;
